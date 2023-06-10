@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Author" content="21049467 Aayam Maharjan">
+    <meta name="keyword" content="html">
+	<title>Book's World</title>
+	<link rel="stylesheet" type="text/css" href="../css/CSS.css">
+	<script src="../java script/script.js"></script>
+
+	<style type="text/css">
+		/* styling of div message to align the message in the center */
+		.message
+		{
+			text-align: center;
+
+		}
+		/* styling of wrapper div where font size and width is maintained */
+		.wrapper
+		{
+			width: 80%;
+			margin: auto; 	
+			font-size: 30px;
+
+		}
+		/* styling for the row-1 div to make the contents inside be in a row */
+		.row1
+		{
+			display: flex;
+			justify-content: space-around;
+			margin: 40px 0px;
+		}
+		/* styling of the input box */
+		input
+		{
+			width: 350px;
+			height: 30px;
+		}
+		/* styling of div query for margin purpose */
+		.query
+		{
+			margin-left: 120px;
+		}
+		/* styling for the div where button belongs */
+		.but
+		{
+			margin-left: 120px;
+			margin-bottom: 10px;
+			
+		}
+		/* styling for the button i.e. defining height and width */
+		button
+		{
+			height: 40px;
+			width: 100px;
+			
+
+		}
+		
+		
+	</style>
+
+    </head>
+<body>
+    <!-- Head Section -->
+    <header>
+
+        <div class="logo">
+            <img src="../Images/logo1.png" alt="Book's World" title="Book's World">
+        </div>
+
+        <div class="nav-bar">
+
+            <a href="../index.html">Home</a>
+            <a href="Product.html">Product</a>
+            <a href="Blog.html">Blog</a>
+            <a href="Research.html">Research</a>
+            <a href="Contact Us.html">Contact us</a>
+
+        </div>
+
+    </header>
+
+ 	<div class="message">
+ 		<h1> Drop Your Queries</h1>
+ 		   
+ 		<h1>To Us</h1>
+ 	
+ 		<p style="padding-top: 50px;">We would love to hear from you!! You can ask any query you have.</p>
+
+ 	</div>	
+ 			<hr>
+ 	
+ 	
+ 	<!-- form validation -->
+ 	<form name="check" onsubmit="validation()">
+
+ 	<!-- making a wrapper div -->	
+ 	<div class="wrapper">	
+ 		<div class="row1">
+ 			<div class="Fname">
+ 				First Name<br>
+ 				<input type="text" name="Fname" placeholder="Please enter your first name">
+ 				<br>
+ 			</div>
+
+ 			<div class="Lname">
+ 				Last Name<br>
+ 				<input type="text" name="Lname" placeholder="Please enter your last name">
+ 			</div>
+ 		</div>
+
+
+ 		<div class="row1">
+ 			<div class="Email">
+ 				Email Address<br>
+ 				<input type="text" name="Email" placeholder="Enter your email address i.e. abc@gmail.com">
+ 				<br>
+ 			</div>
+
+ 			<div class="Phone">
+ 				Phone Number<br>
+ 				<input type="text" name="Num" placeholder="Please enter your Phone number">
+ 			</div>
+ 		</div>
+
+ 			<div class="query">
+ 				Your Queries<br>
+ 				<textarea placeholder="Please let us know your queries!!" rows="10" cols="80" name="text"></textarea>
+ 			</div>
+
+ 			<div class="but">
+ 				<button type="submit">Sumbit</button>
+ 			</div>
+
+ 	</div>
+
+ 	</form> 
+ 	
+    <!-- Footer -->
+    <footer>
+            <div class="foot">
+                <!-- Column 1 of footer -->
+                <div class="footone">
+                    <h3>About Us</h3>
+                    <p>
+                        Book's World is a online book<br>
+                        store which main motive is to deliver<br>    
+                        the books to the people willing to<br>
+                        study. At Book's World you can buy books<br>
+                        online at the cheapest price possible.<br>
+
+                    </p>
+                </div>
+                <!-- Column 2 of footer -->
+                <div class="foottwo">
+                    <table>
+                        <tr>
+                            <h3>Quick Links</h3>
+                        </tr>
+                        <tr>
+                            <td><a href="..\index.html">Home</td></a>
+                        </tr>
+                        <tr>
+                            <td><a href="Product.html">Product</td></a>
+                        </tr>
+                        <tr>
+                            <td><a href="Blog.html">Blog</td></a>
+                        </tr>
+                        <tr>
+                            <td><a href="Research.html">Research</td></a>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Column 3 of footer -->
+                <div class="footthree">
+                    <h3>Follow us</h3>
+                    <a href="https://www.instagram.com/instagram/"><img src="../images/instagram.png" width="30px"></a>
+                    <a href="https://www.facebook.com/"><img src="../images/facebook.png" width="30px"></a>
+                    <a href="https://twitter.com/Twitter"><img src="../images/twitter.png" width="30px"></a>
+                    <a href="https://www.youtube.com/youtube"><img src="../images/youtube.png" width="30px"></a>
+                </div>
+            </div>
+        
+    </footer>
+
+</body>
+</html>
